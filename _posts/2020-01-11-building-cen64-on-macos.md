@@ -1,7 +1,6 @@
 ---
-layout:     post
-title:      "Building cen64 on macOS"
-date:       2020-01-11 17:42:41 +0000
+layout: post
+title: Building cen64 on macOS
 categories: n64
 ---
 For testing Nintendo 64 homebrew ROMs, [cen64](https://github.com/n64dev/cen64) is the most accurate emulator (though it doesn't run at full speed yet). Here's how to build it from source on macOS:
