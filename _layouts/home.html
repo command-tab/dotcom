@@ -1,6 +1,8 @@
 ---
 layout: base
 ---
+<h1>{{ site.title }}</h1>
+
 {% assign posts = paginator.posts | default: site.posts %}
 <div>
   {% for post in posts %}
@@ -9,18 +11,16 @@ layout: base
       <h2>{{ post.title }}</h2>
     </a>
     <p>
-      {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-      Posted on {{ post.date | date: date_format }}
+      <em>Posted on {{ post.date | date: site.date_format }}</em>
     </p>
     <div>
       {% assign excerpt_length = site.excerpt_length | default: 50 %}
       {{ post.excerpt | strip_html | xml_escape | truncatewords: excerpt_length }}
       {% assign excerpt_word_count = post.excerpt | number_of_words %}
       {% if post.content != post.excerpt or excerpt_word_count > excerpt_length %}
-        <a href="{{ post.url }}">[Read&nbsp;More]</a>
+        <br><a href="{{ post.url }}">[Read&nbsp;More]</a>
       {% endif %}
     </div>
-    {% endunless %}
    </article>
   {% endfor %}
 </div>
