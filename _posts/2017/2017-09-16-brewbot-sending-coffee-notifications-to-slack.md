@@ -15,7 +15,7 @@ We also use Slack for team chat and various notifications, so integrating the co
 
 Full parts list:
 
-* [MCP3008 8-Channel 10-Bit Analog to Digital Converter](http://www.adafruit.com/products/856)
+* [MCP3008 8-Channel 10-Bit Analog to Digital Converter](http://www.adafruit.com/products/856)
 * [Raspberry Pi model B](http://www.adafruit.com/products/998)
 * [16-pin IC socket](http://www.adafruit.com/products/2203)
 * [Assortment of heat shrink tubing](http://www.adafruit.com/products/344)
