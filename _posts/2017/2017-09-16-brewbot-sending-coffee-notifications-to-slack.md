@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BrewBot - Sending Coffee Notifications to Slack
-categories: raspberry-pi
+categories: projects
 ---
 At work, we have a coffee machine that serves dozens of people in the building, and it's difficult to know when to come get fresh coffee. You might arrive when it's empty and be tasked with making more, but the ideal situation is to arrive just as a fresh pot is being brewed.
 
