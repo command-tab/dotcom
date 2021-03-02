@@ -3,8 +3,6 @@ layout: post
 title: Adventures with Nest
 categories: docs
 ---
-
-
 I recently purchased a pair of [Nest Learning Thermostats](https://nest.com) for my new home. Compared to the white brick style Honeywell thermostats that came with the place, the Nest is so much more advanced. It does temperature learning, auto-away, and remote control over Wi-Fi from the web and iOS devices. It also has a color LCD and just generally looks beautiful on the wall with its brushed stainless steel housing.
 
 ![nest thermostat](/assets/nest.jpg)
