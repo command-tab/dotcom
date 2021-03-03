@@ -1,0 +1,5 @@
+---
+layout: post
+title: SmartSleep
+---
+[SmartSleep](http://www.jinx.de/SmartSleep.html) is one of those "I wish I knew about this earlier" pieces of software that saves me several minutes every day when I put my MacBook Pro to sleep. Intel Mac laptops (and some of the late G4 laptops) have three sleep states: basic sleep, sleep and hibernate, and full-on hibernate. Sleep is the basic low-power mode, and hibernate actually writes the contents of RAM to disk to conserve even more battery power and prevent the contents of RAM from being lost in the event of a power outage. By default, Intel Macs do the latter, and spend 20 to 60 seconds dumping RAM to disk before going to sleep, depending on how much RAM you have installed. If you happen to run your Mac on AC power most of the time, waiting for the disk to spin down can feel like minutes, but SmartSleep lets you safely switch between sleep modes. After setting my MacBook Pro to sleep only, it blinks off and spins down in only a second or two -- a huge improvement in sleep time. This "feature" has been bugging me for the last several months, and SmartSleep effectively adds the system preference that Apple forgot.
