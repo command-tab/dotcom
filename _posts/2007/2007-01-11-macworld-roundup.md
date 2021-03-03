@@ -1,0 +1,13 @@
+---
+layout: post
+title: Macworld Roundup
+---
+So, the iPhone has arrived.  Never before on a mobile device have I seen such colorful graphics, beautiful animation, and usable features.  If they didn't already seem last century, Windows Mobile and other smart phone systems really have to catch up to Apple's designs.  The multi-touch interaction looks like it's done just right, and everything "scrolls like butter," as Steve said last year.  While I was almost sure that Apple wouldn't create a mobile phone, I knew that if they did, it would put other hardware and software solutions to absolute shame.
+
+While Steve's keynote answered many of my initial questions, I'm very curious if Apple will allow third parties to develop their own applications and widgets, as they've done with Dashboard in Mac OS X.  As I live in the midwest, Cingular coverage is next to nil out here, so loading an iPhone optimized version of Skype would be ideal for me.  WiFi coverage is better in my area than the average cell signal, making my iPhone almost exclusively 802.11 based -- fine by me, as broadband is thankfully plenty fast.  With internet access almost anywhere now, third party widgets that access the internet would be so much more popular.
+
+In all seriousness, though, Apple has set the bar for mobile phones so high, and yet they won't even be shipping the iPhone until June.  I do wonder if they will continue to update the iPods, or force users to buy an iPhone to take advantage of all the new features?  Rumors have been answered with what looks to be a stellar product, but there are many more questions to come.  And, naturally, I want to take the iPhone apart and see what makes it tick.
+
+Also new at Macworld is the ï£¿tv (that's Shift-Option-K to make the Apple logo on the Mac, by the way).  I was surprised at how much 802.11n was downplayed -- it's a huge factor in the performance of the device, and requires an all-new AirPort Extreme base station, which may soon replace my WRT54G.  Apple is really pushing new TV technology, too.  My main standard definition TV still only has composite (yellow) video-in, so I'm S.O.L. when it comes to the Apple tv.  I'm not about to drop Xbox Media Center any time soon, so I may consider assembling a Front Row/Apple tv skin for XBMC, just to make it more friendly and Mac-like.
+
+The year has just begun, and there's bound to be all kinds of new goodies in store.  Apple really knows how to kick off a year.  Start by revolutionizing the mobile phone industry, they maybe move into dual quad-core Macs.  Who knows -- we may all be typing on multiprocessor and multi-core machines before the end of the year!
