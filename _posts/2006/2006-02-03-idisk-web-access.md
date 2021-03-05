@@ -1,0 +1,5 @@
+---
+layout: post
+title: iDisk Web Access
+---
+Earlier today, [Dave Waker](http://www.warker.com/) alerted me to a cool tip regarding .Mac members' iDisk storage. As a .Mac member, you receive 1 GB of online storage that can be used for photos, movies, email, and public web space. To communicate with this great service, it's necessary to use a program with .Mac features built in, the Finder, or a WebDAV client (the iDisk is WebDAV based, as compared to FTP/SFTP). Mac OS X 10.3 "Panther" introduced iDisk syncing in the Finder, though I've found hasn't always been 100% reliable. Personally, I use [Transmit](http://www.panic.com/transmit/)'s iDisk features, but sometimes the need arises to change files and folders on the go and without prior installation of software. Here's where the tip comes in. You can manage your own iDisk data via a web application similar to the .Mac webmail interface. Simply visit the following link, substituting "username" for your .Mac member name. When prompted, fill in your username and password in the secure dialog, and then manage your iDisk files from anywhere! `https://idisk.mac.com/username/?view=web`

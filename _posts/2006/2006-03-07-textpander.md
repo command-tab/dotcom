@@ -1,0 +1,5 @@
+---
+layout: post
+title: Textpander
+---
+On a reader's [blog](http://macademic.net/blog/index.php?title=finger_and_memory_saver&more=1&c=1&tb=1&pb=1), I just discovered [Textpander](http://www.petermaurer.de/nasi.php?section=textpander), a small utility which turns small segments of text into large, expanded ones. Back in the Mac OS 8 and 9 days, I used to run [TypeIt4Me](http://www.typeit4me.com/) to catch common typos and handle a few conversions, and I'm delighted to find Textpander is a perfect companion to Mac OS X. When the preference pane is opened, Textpander launches a small background process to watch your keystrokes for a given trigger from the defined list. Personally, misspelling "and" as "adn" is one I always look for when proofreading, but now those days are gone. What's more impressive is that Textpander can match the case of the misspelling such that the replaced word is exactly what you intended to type. Great software that Just Works. This handy utility is offered as donationware, so I highly recommend giving it a try and sending the author a tip if you find it useful.

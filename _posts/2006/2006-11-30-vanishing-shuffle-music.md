@@ -1,0 +1,9 @@
+---
+layout: post
+title: Vanishing Shuffle Music
+---
+The [Cult of Mac blog](http://blog.wired.com/cultofmac/2006/11/the_ipod_shuffl.html), [AppleDefects](http://www.appledefects.com/?p=178), and others noted that many 2G iPod Shuffle owners have been reporting troubles with their new players, in which music inexplicably disappears and iTunes reports "The required disc cannot be found." Most notably, it has been happening with podcasts:
+
+>I had noticed that the Shuffle reports way more "updating iPod" notices than it should, as well as the alarming message above, which occurs every time I plug in my player, including several times after it's been updated and nothing changes -- just clicking into the iTunes window causes it to worry. The podcasts flip their indicator from played to unplayed and back, and it locks up.
+
+It seems that these problems are not limited to 2G iPod Shuffles. Just this morning I had the same problems with my first generation 1GB Shuffle, and ended up just deleting everything and dropping in a podcast or two before heading out. This took several tries, of course, and required dismissing more than a dozen errors, so I decided to investigate when I had more time. Even after experimenting a bit, I'm still not sure of the source of the problems -- perhaps it's an issue with the latest firmware, iTunes 7.0.2, or even a defective [TWiTcast](http://twit.tv) -- but running Apple's [iPod Shuffle Reset Utility](http://www.command-tab.com/2006/10/26/shuffle-reset/) completely erased my Shuffle and reloaded the software, giving it that factory fresh feel. Apparently, the "brick it and bring it back" method works wonders for iPods. Since resetting it, I've encountered no problems, and have enjoyed a number of podcasts and songs without issue. Keep in mind, the Shuffle Reset Utility is only for 1G Shuffles, so this won't solve the issue with 2G models, but hopefully a fix for this annoying bug is in the works.

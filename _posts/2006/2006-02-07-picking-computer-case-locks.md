@@ -1,0 +1,7 @@
+---
+layout: post
+title: Picking Computer Case Locks
+---
+Recently, I found the (legitimate) need to pick a computer case lock on a PC tower in a situation where the hard drive resided in a hot swap bay, but the key was not included.  Computer keys are most commonly found as a short, tube-shape piece with a stubby handle and a small bump to put torque on the lock.  Upon initial inspection, nothing looks to be unique about case lock keys.  I actually tried two "homeless" keys, but with no avail.  Shortly thereafter, I noticed that there were four small cuts in the outer edge of the key tube, sliced at different heights.  Comparing one key to another, I found that they were indeed different, and were quite similar to the bumps on a household key.  The locks work the same way, but the pins are simply in a circular arrangement instead of linear.  With every pin exposed instead of hidden deeper and deeper into the lock, it should be far easier to pick than a household lock.  I just had to try.
+
+With a pair of thin needlenose pliers clamped on to apply tension to the lock's center tumbler, I pressed a straightened paperclip into each pin location.  After a few gentle presses, the lock turned just slightly.  The first set of pins was then picked.  Without removing pressure with the pliers, I moved on to the next three sets of pins, doing the same procedure to each.  Upon pressing in the fourth pin, the lock tumbler turned completely, and the drive was freed.  Not terribly secure, but I'm guessing they're not meant to be.

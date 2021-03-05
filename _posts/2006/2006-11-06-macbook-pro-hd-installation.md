@@ -1,0 +1,7 @@
+---
+layout: post
+title: MacBook Pro HD Installation
+---
+Jason O'Grady (of [PowerPage](http://www.powerpage.org/) fame) recently ordered a stock Core 2 Duo MacBook Pro and [published](http://blogs.zdnet.com/Apple/?p=325) some of the technical details of installing a different SATA hard drive into the machine. He notes that the built-to-order Macs can sometimes take longer to ship, which is something I have experienced in the past, and can vouch for. In the hands of a capable technician, buying a completely stock Mac and upgrading it yourself can often be very beneficial for both your computer and your wallet. Apple tends to overcharge on pre-ship upgrades -- especially RAM -- but additional RAM can usually be installed without much difficulty. Hard drives are another story, though. Unlike it's sibling MacBook, upgrading the Pro model hard drive is decidedly more complicated, but not impossible.
+
+One of the most useful pieces of information during the upgrade is a take-apart manual for the MacBook Pro. When I [overhauled](/2005/12/13/powerbook-overhaul/) my PowerBook G4, I used both the iFixit guide for my model, as well as the Apple Service Source documentation (which is all floating around the net). O'Grady used the iFixit docs too, and had great success disassembling his new machine and installing the new drive. Overall, it looks just like the sort of project I may attempt when I order my new Core 2 MacBook Pro -- which will be sometime this month, funds willing.
