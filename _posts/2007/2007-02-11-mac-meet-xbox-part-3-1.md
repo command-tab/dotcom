@@ -66,9 +66,9 @@ I hope this networking tutorial shines some light on what seems to be a trouble 
 
 **Mac Meet Xbox: Navigation**
 
-Part 1: [Why Xbox + Choosing Chips](/2006/08/18/mac-meet-xbox-part-1/)
+Part 1: [Why Xbox + Choosing Chips](/2006/08/19/mac-meet-xbox-part-1/)
 
-Part 2: [Cracking the Case + Installing and Flashing](/2006/09/08/mac-meet-xbox-part-2/)
+Part 2: [Cracking the Case + Installing and Flashing](/2006/09/09/mac-meet-xbox-part-2/)
 
 Part 3: [Installing XBMC](/2006/12/21/mac-meet-xbox-part-3/)
 

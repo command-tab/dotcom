@@ -14,7 +14,7 @@ Building Xbox Media Center from source code with the XDK isn't a great option, l
 
 With a shiny new build of XBMC on your computer, you'll need to prepare the Xbox to receive the files.  The community that has developed around Xbox modding decided upon one of the best choices for file transfer -- FTP.  We're going to run an FTP server on the newly modded Xbox, browse through it's carefully arranged system files, and replace a bunch of them with Xbox Media Center.  First, though, you'll need an FTP server.
 
-In the early days of Xbox modding, a replacement for Microsoft's Xbox "dashboard" was created, EvolutionX, and it served a number of needs: launching programs, flashing the Xbox's onboard BIOS, changing settings, and running an FTP server.  While others have since been developed, and even our very own Xbox Media Center is capable, we need something simple and easy to get off the ground.  The easiest way to run an FTP server is to boot a prepared EvolutionX disc, which automatically starts the FTP service.  Again, you can find discs to do the job all over the web.  Burn the disc image to a DVD-R, DVD+RW, or CD-RW, which are three of the most compatible disc types -- CD-Rs tend not to work well.  Pop in the disc, reboot your Xbox, and marvel at the first non-Microsoft application running on your Xbox.  By the time you see the spinning "EvolutionX" text, it's ready to accept FTP connections at the IP address displayed in the Utilities menu (assuming your network setup is the same as in [Part 2](/2006/09/08/mac-meet-xbox-part-2/)).
+In the early days of Xbox modding, a replacement for Microsoft's Xbox "dashboard" was created, EvolutionX, and it served a number of needs: launching programs, flashing the Xbox's onboard BIOS, changing settings, and running an FTP server.  While others have since been developed, and even our very own Xbox Media Center is capable, we need something simple and easy to get off the ground.  The easiest way to run an FTP server is to boot a prepared EvolutionX disc, which automatically starts the FTP service.  Again, you can find discs to do the job all over the web.  Burn the disc image to a DVD-R, DVD+RW, or CD-RW, which are three of the most compatible disc types -- CD-Rs tend not to work well.  Pop in the disc, reboot your Xbox, and marvel at the first non-Microsoft application running on your Xbox.  By the time you see the spinning "EvolutionX" text, it's ready to accept FTP connections at the IP address displayed in the Utilities menu (assuming your network setup is the same as in [Part 2](/2006/09/09/mac-meet-xbox-part-2/)).
 
 There are several Mac FTP programs that will work for the next task, however I strongly recommend Panic's [Transmit](http://www.panic.com/transmit/) client, which has proven to work reliably with the built-in FTP servers of the Xbox programs we'll be dealing with.  Launch Transmit, and connect to the IP given by EvolutionX, with the universal Xbox FTP login:
 
@@ -38,9 +38,9 @@ If you've made it this far, consider yourself an official Xbox modder.  You've s
 
 **Mac Meet Xbox: Navigation**
 
-Part 1: [Why Xbox + Choosing Chips](/2006/08/18/mac-meet-xbox-part-1/)
+Part 1: [Why Xbox + Choosing Chips](/2006/08/19/mac-meet-xbox-part-1/)
 
-Part 2: [Cracking the Case + Installing and Flashing](/2006/09/08/mac-meet-xbox-part-2/)
+Part 2: [Cracking the Case + Installing and Flashing](/2006/09/09/mac-meet-xbox-part-2/)
 
 Part 3: [Installing XBMC](/2006/12/21/mac-meet-xbox-part-3/)
 
