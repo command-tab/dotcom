@@ -2,9 +2,6 @@
 layout: post
 title: iPod Super
 ---
-
-**What is this about?**
-
 Ultimately, I'd like to get a regular 3.5" hard drive working with an iPod. The fact that it would be huge will simply be a novelty.
 
 ![ipod super header](/assets/ipod_super_banner.jpg)
