@@ -1,0 +1,7 @@
+---
+layout: post
+title: Live Verification
+---
+I just read that Disk Utility in OS X 10.4.3 can now do [live verification](http://docs.info.apple.com/article.html?artnum=302672) of the current system drive. Sound good, right? But what does it mean? Now you can check the current health of your hard drive and look for errors without the hassle of rebooting to the Mac OS X Install CD or DVD. Just open Disk Utility, select your main hard drive on the left, and click Verify Disk on the right. Apple notes that your system may hang for a few seconds while the disk is locked (and all processes, I presume, are temporarily frozen) and scanned.
+
+The 10.4.3 update brings a ton of fixes, including security updates, Spotlight speed-ups, and notable Safari improvements. MacNN [writes](http://www.macnn.com/articles/05/11/02/safari.passes.acid2/) that Safari is the first non-beta, non-preview, publicly released browser to pass [Acid2](http://www.webstandards.org/act/acid2/), which is a rigorous browser standards test. It exists to help ensure that browsers all conform to a unified standard, making it easier for developers and end users alike to get the results they expect. Undoubtedly, the open-sourcing of Safari's [WebKit](http://webkit.opendarwin.org/) engine has had a dramatic impact on it's performance. Now if only I could get my site anywhere near standards-compliant! Also, [Macsimum News](http://www.macsimumnews.com/index.php/archive/safari_passes_acid2_tests_grows_in_popularity/) has some worthwhile reading on the Safari updates.

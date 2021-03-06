@@ -1,0 +1,11 @@
+---
+layout: post
+title: iPod Screen Scratch Removal
+---
+While using a [RadTech case](http://www.radtech.us/Products/SleevziPod.aspx) for my iPod, a small grain of sand managed to get trapped between the window-cling-like screen cover and the glassy iPod screen itself. I didn't notice it's presence until it started to gouge an awful scratch into my beloved audio player's crystal clear screen. After doing a little research, I wound up back at RadTech, buying their [IceCreme](http://www.radtech.us/Products/Icecreme.aspx) scratch removal abrasive.
+
+After shelling out the $21 for the polishing solution from RadTech (which I suspect is some common polishing solution), I started out following their directions, attempting to remove the scratch. They suggest 30 to 45 minutes using one solution, then another 10 to 15 with the second. That's a rather large chunk of time, and I wasn't sure I'd be up to that. So, I fired up my standard tool of choice -- the Dremel. With the included polishing wheel attached, I put a tiny bit of the "A" abrasive on the iPod screen and set the Dremel to it's lowest rotation speed. Too high a rotation speed would cause heat to build up because of friction, and possibly melt the iPod screen to an even more unusable point. After only a minute or so of using the polishing wheel, the scratch was nearly gone. The next step was to wash the wheel and clean off the iPod screen, per the instructions. Follow up with another Dremel run, this time using the "B" polishing solution, and the iPod screen was good as new. I wish I had taken before and after photos, because the difference was unbelievable...but that iPod has since been [dropped, hacked](/2005/03-13/ipod-super/), and sold for parts. The upshot is that I learned a lot doing all these mods and have become quite proficient at iPod repair. I hope someone can make use of this information for their own hacks or fixes.
+
+And, despite my mishap, I still think that RadTech's iPod "sleevz" are the best cases out there.  They come in plenty of colors and fit iPods of all flavors.  Just watch out for that beach sand.
+
+**Update:** Following comments from readers, I've since tried Brasso and found that it works quite well, too.

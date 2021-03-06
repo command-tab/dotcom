@@ -1,0 +1,5 @@
+---
+layout: post
+title: 'Xbox Media Center and Flickr: Better Together'
+---
+[Jon](http://www.jonsthoughtsoneverything.com/) finally posted his [Flickr plugin for Xbox Media Center](http://www.jonsthoughtsoneverything.com/2005/07/09/introducing-flickr-for-your-xbox-media-center/), and it is awesome. After filling in your email address, the script pulls in your [Flickr](http://www.flickr.com) photo gallery from the net and displays them within the [Project Mayhem III](http://www.chokemaniac.net/) theme. You can also browse through your photosets and the public Flickr photos as well. As stated on Jon's site, this is a natural addition for XBMC -- You share your photos with the world via Flickr, and share them in your livingroom via best (and most affordable!) media center available. To install, just drop the Flickr folder into your XBMC "scripts" folder via FTP, and launch it. More info is available in the ReadMe which accompanies the script. [Get it here](http://www.jonsthoughtsoneverything.com/2005/07/09/introducing-flickr-for-your-xbox-media-center/).

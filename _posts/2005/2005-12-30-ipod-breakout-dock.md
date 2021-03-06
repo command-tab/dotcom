@@ -1,0 +1,5 @@
+---
+layout: post
+title: iPod Breakout Dock
+---
+A short while ago, I discovered a project aiming to open up the Dock Connector interface on the iPod and make it possible for anyone to interact with it. The [iPod Breakout Dock](http://panocamera.com/2005/Blog_Nov%2025,%202005_11-28.html) (found via [MAKE](http://www.makezine.com/blog/archive/2005/11/diy_ipod_breakout_dock.html), naturally) makes the Dock Connector signals easy to access, allowing for connections with microcontrollers and other devices. I'm in the process of building one myself, and I'm considering creating a custom board to remove the need for tedious soldering. The board would slide between the rows of pins on the JAE manufactured Dock Connector plug and provide a row of pins that would snap into a standard breadboard, ready for hacking. I have yet to choose a supplier, much less begun designing the relatively simple board, but I'm curious if anyone can recommend a low-run PCB manufacturing house. Also, I'd like to know if there's any interest in such a board, as I'd certainly consider selling them at a reasonable price. Comments and suggestions are welcome!

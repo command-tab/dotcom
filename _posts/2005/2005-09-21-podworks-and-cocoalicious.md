@@ -1,0 +1,11 @@
+---
+layout: post
+title: PodWorks and Cocoalicious
+---
+I may have mentioned them in comments before, but I felt that following their recent upgrades, I should point out these two Mac gems: PodWorks and Cocoalicious. Both applications come from [Sci-Fi Hi-Fi](http://www.scifihifi.com/), Buzz Anderson's one-man software company.
+
+[PodWorks](http://www.scifihifi.com/podworks/) is a utility for recovering (or just copying) songs from your iPod. It does so by reading the iPod's semi-hidden music database and allowing you to choose songs to import back to your computer. I can imagine if Apple had their say, this feature would be in iTunes, however the music industry likely pressured them to disable the ability to copy songs from iPods to prevent the average user from stealing tons of music en masse. An issue arises, though, when you happen to irreversibly delete songs from your computer, your hard drive croaks, or some other catastrophe befalls your Mac -- your songs then only exist on your iPod, and there's no Apple-provided solution for restoring your ripped or purchased music. Both represent a valuable investment, be it time, money, or both. PodWorks will quickly scan attached iPods and present you with an iTunes-style list, from which you can copy any song, group, or playlist back to your computer, even straight to iTunes if you so choose. There are a number of utilities in the Mac world that do such a thing, but none do it with the speed and ease that PodWorks offers. For this reason, PodWorks is my favorite iPod tool out there.
+
+The second utility from Sci-Fi Hi-Fi that I use and love is [Cocoalicious](http://www.scifihifi.com/cocoalicious/). A Cocoa interface for the popular social bookmarking site [del.icio.us](http://del.icio.us/), Cocoalicious provides a fantastic way to add, edit, and search through saved items. Among it's notable features, the one I enjoy the most is full-text searching. Cocoalicios can search through bookmark titles, web addresses, tags, and _actual content_ from the bookmarked site. If tagging makes finding items simple, then Cocoalicious makes it idiot-proof.
+
+Small, quick, and to-the-point programs like those above are what the Mac is really about.

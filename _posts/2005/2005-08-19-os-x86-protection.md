@@ -1,0 +1,9 @@
+---
+layout: post
+title: OS x86 Protection
+---
+Leo and crew mentioned the cracking of "OS x86" on [This Week in Tech](http://twit.tv/), and how people have managed to install the developer-only version of Mac OS X for x86 on compatible Intel machines. With the right SSE3 hardware, even Rosetta works and will run current Mac programs. Clever hackers have managed to remove the TPM code, allowing the OS to run without hardware copy protection, limiting the software to only Apple machines. So, nearly a year before x86 Macs are released, we have 10.4.1 running on non-Apple Intel hardware. This poses some interesting questions...
+
+Does Apple intend to leave the TPM hardware protection as-is, and simply let Mac OS X go anywhere, including taking a chunk of Windows' market share? It's a double-edged sword, really -- it means more widespread adoption of Mac OS X at the expense of lost hardware sales. There will always be people who either don't know enough to install OS X on Intel hardware or simply prefer Apple's design, so their sales won't drop to zero. I think the bottom line is that regardless of any protection Apple can implement, such a huge invitation (OS X on any Intel) is bound to be cracked, and they had better be prepared for it. We won't know how the final version will be protected, but TPM is our only clue at the moment. What we do know is that there are plenty of [smart people](http://www.osx86project.org/) out there who already have the skills to make Mac OS X run on any Intel hardware (see my "[Uncrackable](http://www.command-tab.com/index.php/uncrackable/)" post).
+
+...And that Apple is [sending cease and desist letters](http://www.macnn.com/articles/05/08/18/cease.and.desist.issued/) to websites hosting videos of hacked installations, as if that will stop anything.
