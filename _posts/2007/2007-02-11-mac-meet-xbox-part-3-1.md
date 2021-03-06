@@ -72,4 +72,4 @@ Part 2: [Cracking the Case + Installing and Flashing](/2006/09/09/mac-meet-xbox-
 
 Part 3: [Installing XBMC](/2006/12/21/mac-meet-xbox-part-3/)
 
-Part 3.1: [Networking in Detail](/2007/02/10/mac-meet-xbox-part-3-point-1/)
+Part 3.1: [Networking in Detail](/2007/02/11/mac-meet-xbox-part-3-1/)
