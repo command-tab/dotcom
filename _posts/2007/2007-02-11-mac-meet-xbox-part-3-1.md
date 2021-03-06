@@ -2,8 +2,6 @@
 layout: post
 title: 'Mac Meet Xbox: Part 3.1'
 ---
-**3.1? What?**
-
 Networking a Mac and an Xbox can sometimes be troublesome, occasionally involving unusual network setups, so I decided to publish this little Mac Meet Xbox addition to better cover the subject.  Having in-depth, detailed knowledge of networking isn't necessary, but some basic concepts are key in keeping Xbox Media Center updated with new builds and fresh content.
 
 For most, there are two main ways of attaching your devices: using a router as a central network hub, and wired Ethernet using a "crossover cable."  Both ways work, and the choice is up to you depending on your existing network setup or personal preferences.
