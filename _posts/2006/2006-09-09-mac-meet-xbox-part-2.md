@@ -8,7 +8,7 @@ Welcome to Part 2 of my multi-part introduction to setting up a Xbox-based home 
 
 To begin modding, you'll have to open your Xbox. _This will void your warranty._ If you send your Xbox to Microsoft for repair after tampering with it, they will refuse to work on it. However, if you have even basic computer hardware skills, then there's no reason to be alarmed -- there is a great [Xbox modding community](http://forums.xbox-scene.com/) that has developed and will gladly help you out of a jam. I can't say enough about the importance of like-minded individuals who can help you through impossibly complex situations involving small wires, config files, and unsupported hacks. Like everything technological, Xbox modding is an involved topic, but there's plenty of help available.
 
-I should note that I'm aware of "softmod" solutions that do not require a modchip, but I've found that installing a modchip is the safest and most feature-packed path to choose, especially if you haven't done anything like this before. In the past, I've killed a few Xboxes with a bad flash, and resurrecting them took more time, effort, and research than most would be willing to invest. The Xecuter 2.6 CE Lite chip I recommended in [Part 1](/2006/08/18/mac-meet-xbox-1/) sports a number of features to help you avoid this situation, and protect both your Xbox and your modchip from being turned into paperweights.
+I should note that I'm aware of "softmod" solutions that do not require a modchip, but I've found that installing a modchip is the safest and most feature-packed path to choose, especially if you haven't done anything like this before. In the past, I've killed a few Xboxes with a bad flash, and resurrecting them took more time, effort, and research than most would be willing to invest. The Xecuter 2.6 CE Lite chip I recommended in [Part 1](/2006/08/18/mac-meet-xbox-part-1/) sports a number of features to help you avoid this situation, and protect both your Xbox and your modchip from being turned into paperweights.
 
 Screwdriver in hand, it's time to get to the heart of the matter by cracking the case and dissecting the system. As the Xbox is quite similar to a PC, disassembly should be an easy task if you've ever taken apart a computer. The case is held together by six T-20 Torx screws which hold the top and bottom plastic shells together. Peeling back the feet and stickers on the underside will allow access to the screws, as they're concealed from initial observation. If you prefer, you can avoid leaving a thin veneer of stickiness by simply poking your screwdriver through the stickers instead of peeling them off. With the screws out, the top case can be lifted off the bulk of the components. Three smaller T-10 screws hold down the 8 or 10 GB hard drive and DVD-ROM. After unplugging the power and IDE cabling from both drives, lift them straight out to expose the motherboard. Eleven more T-10 screws fasten the motherboard to the chassis. Remove them all, including the ones beside the A/V connector, and gently lift out the motherboard. If it gets stuck towards the back (as it often does), lift the front first, while keeping controller port wires out of the way. You can then set the case and power supply assembly aside and focus on the motherboard.
 
@@ -42,9 +42,9 @@ This concludes the second, and undoubtedly most complicated edition of "Mac Meet
 
 **Mac Meet Xbox: Navigation**
 
-Part 1: [Why Xbox + Choosing Chips](/2006/08/18/mac-meet-xbox-1/)
+Part 1: [Why Xbox + Choosing Chips](/2006/08/18/mac-meet-xbox-part-1/)
 
-Part 2: [Cracking the Case + Installing and Flashing](/2006/09/08/mac-meet-xbox-2/)
+Part 2: [Cracking the Case + Installing and Flashing](/2006/09/08/mac-meet-xbox-part-2/)
 
 Part 3: [Installing XBMC](/2006/12/21/mac-meet-xbox-part-3/)
 
