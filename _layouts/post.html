@@ -4,7 +4,7 @@ layout: base
 <article>
   <h2 class="title">{{ page.title }}</h2>
   <p class="date">
-    <em>Published {{ page.date | date: site.date_format }}</em>
+    <em>{{ page.date | date: site.date_format }}</em>
   </p>
   <div>
     {{ content }}

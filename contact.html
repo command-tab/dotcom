@@ -1,0 +1,33 @@
+---
+layout: base
+title: Contact
+---
+<div class="post">
+	<h2>Contact</h2>
+
+  <p>I frequently use Twitter, so try me there first:</p>
+  <p>
+    <a href="https://twitter.com/command_tab">@command_tab</a>
+  </p>
+
+  <p>If you'd like to send mail:</p>
+  <script type="module">
+    // Avoid email address being picked up by dumb scrapers
+    const address = 'cGJ5eXZhQHBienpuYXEtZ25vLnBiego='
+    function r (str) {
+      return (str + '').replace(/[a-zA-Z]/gi, function(s){
+        return String.fromCharCode(s.charCodeAt(0) + (s.toLowerCase() < 'n' ? 13 : -13))
+      })
+    }
+    const d = r(atob(address))
+    var container = document.getElementById('address')
+    var a = document.createElement('a')
+    a.href = `mailto:${d}`
+    a.innerText = d
+    container.appendChild(a)
+  </script>
+  <span id="address"></span>
+  <noscript>
+  <p><code>collin</code>, followed by the <em>at</em> symbol, followed by <code>command-tab.com</code>.</p>
+  </noscript>
+</div>

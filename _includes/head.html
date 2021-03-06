@@ -1,6 +1,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&display=swap" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
   {% capture title %}
     {%- if page.share-title -%}
       {{ page.share-title | strip_html | xml_escape }}
@@ -14,13 +16,21 @@
 
   <style type="text/css">
     body {
-      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
       font-size: 0.875em;
-      background-color: white;
       line-height: 1.5em;
+      background-color: #202631;
+      color: #dfdfdf;
+      font-family: 'Lato', sans-serif;
+    }
+    a {
+      color: #80adc8;
+    }
+    a:hover {
+      text-decoration: none;
+      color: #6c91a8;
     }
     code, pre {
-      font-family: "SF Mono", Input, Consolas, Courier, monospace;
+      color: #a1adb6;
     }
     pre {
       background-color: rgba(0, 0, 0, 0.5);
@@ -28,23 +38,12 @@
       border-radius: 0.3em;
       white-space: pre-wrap;
     }
-    a {
-      text-decoration: none;
-    }
-    @media (prefers-color-scheme: dark) {
-      body {
-        background-color: #222;
-        color: #dfdfdf;
-      }
-      a {
-        color: #1b89ef;
-      }
-    }
     .title {
       margin-bottom: 0;
     }
     .date {
       margin-top: .25em;
+      margin-bottom: .25em;
       opacity: 0.5;
     }
     .pagination {
@@ -56,33 +55,37 @@
       display: flex;
       justify-content: space-between;
     }
-    #wrapper {
-      width: 960px;
-      margin: 0 auto;
-      padding: 30px;
-    }
-    @media only screen 
-      and (min-device-width: 320px) 
-      and (max-device-width: 480px)
-      and (-webkit-min-device-pixel-ratio: 2) {
-        #wrapper {
-          width: 350px;
-          margin: 0 auto;
-          padding: 10px;
-        }
-        footer {
-          font-size: .8em;
-        }
-    }
-    #logo {
-      margin-bottom: 1.2em;
+    #home article {
+      margin-bottom: 5em;
     }
     img {
-      width: 500px;
+      width: 60%;
     }
     footer {
       text-align: center;
       margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    h2 {
+      font-size: 1.3em;
+    }
+    table {
+      margin-bottom: 1em;
+    }
+    th {
+      background-color: #666;
+    }
+    td, th {
+      padding: 0.5em 0.75em;
+    }
+    tr:nth-child(even) td {
+      background-color: #333;
+    }
+    #logo {
+      margin-left: 2.3em;
     }
   </style>
 </head>
