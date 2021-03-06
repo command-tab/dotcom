@@ -4,7 +4,7 @@ title: Really Testing iPod Hard Drives
 ---
 If you've worked inside an iPod before or were simply curious how the little white devices work, you're already aware of the smaller than usual hard drives used to store your music, videos, and other media. What you may not know is how to determine if one of these hard drives is functioning 100%, or on its last legs. Damage to the hard drive can result from any of a number of ways, but may not be immediately apparent.
 
-All iPods except the Shuffle have a [hidden diagnostic menu](/2006/03/30/hidden-ipod-commands/) which includes, among other tools, the ability to run a full disk scan and report the status of the its hard drive.
+All iPods except the Shuffle have a [hidden diagnostic menu](/2006/03/31/hidden-ipod-commands/) which includes, among other tools, the ability to run a full disk scan and report the status of the its hard drive.
 
 The absolute best way I've found to test iPod hard drives is to actually open it up, attach the drive to a desktop computer using it's native IDE interface, and run a full suite of disk tests on it. A while ago, I mentioned an [adapter](/2006/01/28/even-more-adapting/) from [Addonics](http://www.addonics.com/products/io/aaedt18IDE25.asp) which converts the iPod's 1.8" connector (seen here) to a standard 2.5" laptop drive connector. (Several people commented on my [iPod Super](/2005/03/13/ipod-super/) hack that any old laptop to desktop hard drive adapter will do, but _the iPod does not use a standard laptop drive_). From there, a [second adapter](http://www.addonics.com/products/io/aa25ide35.asp) will bring your iPod drive in line with a regular 3.5" computer hard drive connector, ready for testing.
 
