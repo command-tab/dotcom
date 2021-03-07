@@ -4,7 +4,7 @@ title: iPod Super
 ---
 Ultimately, I'd like to get a regular 3.5" hard drive working with an iPod. The fact that it would be huge will simply be a novelty.
 
-![ipod super header](/assets/ipod_super_banner.jpg)
+![ipod super header](/static/ipod_super_banner.jpg)
 
 **Why do this?**
 
@@ -14,15 +14,15 @@ This project came about after I dropped my 40 GB 3rd generation iPod and killed 
 
 It's not terribly hard to open the iPod if you know how. Since I had owned my iPod for some time, it had a little wear, and the seam where plastic and metal meet was open just enough to push my fingernail into. Sliding it down, I was able to stick in a nylon pry tool like the ones from [RadTech](http://www.radtech.us/). After getting the tool in there, you can pop the plastic catches and the top comes loose. [OWC](http://eshop.macsales.com/tech_center/index.cfm?page=Video/directory.html) suggests squeezing the two halves of the iPod together at the side edge until it clicks.  It looks a little scary to me, but I've never tried their method.  I'm sure it's perfectly valid, too.  After that, detach the small white connector opposite the hold switch, and the two iPod halves separate. After moving all the loose items like the hard drive out of the way, they all disconnect without much of a problem -- just be careful with those thin ribbon cables. Work slowly and don't force things to come apart. If something's resisting, it's most likely because there's a catch or screw that you overlooked.
 
-![ipod with case opened](/assets/ipod_super_opencase.jpg)
+![ipod with case opened](/static/ipod_super_opencase.jpg)
 
-![ipod hard drive](/assets/ipod_super_drive.jpg)
+![ipod hard drive](/static/ipod_super_drive.jpg)
 
 **Hard Drive Connections**
 
 After opening the iPod, I took a look at the hard drive that no longer worked. I had a 40GB Toshiba MK4004GAH. I looked up the drive on Toshiba's site and found a pin diagram of the connector.  The top-right pin in the following image is pin 1, and below it is pin 2 -- the pattern continues in an up-and-down fashion. I remembered reading somewhere that 1.8" hard drives used an ATA interface, but I wanted to confirm this. Another search yielded a diagram of a standard ATA/IDE connector. Except for four pins dedicated to logic and power, the two diagrams had the same connections.
 
-![ipod hard drive connector](/assets/ipod_super_bus.jpg)
+![ipod hard drive connector](/static/ipod_super_bus.jpg)
 
 **Building the Adapter**
 
@@ -30,11 +30,11 @@ Now that I knew the hardware would match up fairly well, I needed a way for the 
 
 It didn't take long to dig up an old dead hard drive whose S.M.A.R.T. status indicated it was ready to go belly-up.  I unscrewed the Torx screws on the drive's circuit board and separated it from the metal housing. Desoldering all 44 pins would be a chore, so I took the easier route and just ripped through the circuit board with a Dremel.  I also considered using an IDC connector from an IDE ribbon cable, but I figured that a female IDE connector would allow me more options when it came time to attach the iPod to other devices -- I could use an IDE cable and run it to a hard drive, instead of requiring that two parts sit so close together. The next step was to spend some time soldering all 44 tiny wires and testing the connections with a continuity tester. A bead of hot glue was added to hold the wires more securely, and it was finished. Though not part of my plan, this adapter can also connect an iPod hard drive to an IDE bus if necessary.
 
-![ipod hard drive with multimeter](/assets/ipod_super_mini_hd_power.jpg)
+![ipod hard drive with multimeter](/static/ipod_super_mini_hd_power.jpg)
 
-![partially completed adapter](/assets/ipod_super_adapter_nearbuilt.jpg)
+![partially completed adapter](/static/ipod_super_adapter_nearbuilt.jpg)
 
-![completed adapter](/assets/ipod_super_adapter.jpg)
+![completed adapter](/static/ipod_super_adapter.jpg)
 
 **Preparing the Hard Drive**
 
@@ -50,9 +50,9 @@ At this point I read up on how the iPod's hard drive is formatted. There are bas
 
 Using the information about `pdisk` and `dd` on the page mentioned above, I was able to format a 3.5" drive as the iPod would expect to see it.
 
-![booted ipod super](/assets/ipod_super_booted.jpg)
+![booted ipod super](/static/ipod_super_booted.jpg)
 
-![ipod with external hard drive](/assets/ipod_super_laptop_hd.jpg)
+![ipod with external hard drive](/static/ipod_super_laptop_hd.jpg)
 
 **Update:** Here are some iPod articles from Apple that might be of use:
 

@@ -7,11 +7,11 @@ At work, we have a coffee machine that serves dozens of people in the building, 
 
 We also use Slack for team chat and various notifications, so integrating the coffee machine status was a no-brainer. Using a non-invasive/inductive current sensor and Raspberry Pi, the following setup monitors coffee machine energy consumption and waits for a significant rise in current draw, followed by several minutes of sustained usage. Once a time threshold has passed, it does an HTTP POST to a Slack webhook, sleeps for about 15 minutes, then starts monitoring again. This "brewbot" code is [available on GitHub](https://github.com/command-tab/brewbot), and a parts list can be found below.
 
-![Completed kit](/assets/brewbot_full_kit.jpg)
+![Completed kit](/static/brewbot_full_kit.jpg)
 
-![Packaged in box](/assets/brewbot_box.jpg)
+![Packaged in box](/static/brewbot_box.jpg)
 
-![ADC board](/assets/brewbot_adc_board.jpg)
+![ADC board](/static/brewbot_adc_board.jpg)
 
 Full parts list:
 

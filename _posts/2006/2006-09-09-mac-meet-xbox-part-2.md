@@ -18,7 +18,7 @@ Because of the changes made in various revisions of Xboxes, it's necessary to ca
 
 **Installing the Modchip**
 
-The installation procedure for the Xecuter 2.6 CE chip is nearly identical to that of the more expensive Xecuter 3 chip, so I'll provide the [installation instructions](/assets/x3_ce_v10_v16.pdf) here. However, you can stop reading at page 16, as the rest doesn't apply to the 2.6 CE. Team Xectuer does a great job of detailing all the intricacies of installing the chip, so be sure to double-check your work. With care, you can even install the front panel switches without cutting into the case.
+The installation procedure for the Xecuter 2.6 CE chip is nearly identical to that of the more expensive Xecuter 3 chip, so I'll provide the [installation instructions](/static/x3_ce_v10_v16.pdf) here. However, you can stop reading at page 16, as the rest doesn't apply to the 2.6 CE. Team Xectuer does a great job of detailing all the intricacies of installing the chip, so be sure to double-check your work. With care, you can even install the front panel switches without cutting into the case.
 
 Installing the modchip will probably be the most tedious part of the project, so be sure to take your time on this step.
 

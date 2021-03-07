@@ -4,19 +4,19 @@ title: iPod 5G Hard Drives
 ---
 Lately I've been working with some 5th generation iPods trying to come up with a way to [_really_ test](/2006/04/05/really-testing-ipod-hard-drives/) the hard drives in them. Unlike the previous full-size iPod models (excluding the mini and shuffle), the 5th gen uses a hard drive with a different connector.
 
-![iPod 5G Hard Drive](/assets/ipod_5g_hd.jpg)
+![iPod 5G Hard Drive](/static/ipod_5g_hd.jpg)
 
 Generations 1 through 4 used a Toshiba drive with a 1.8" IDE connector. The new drives are still manufactured by Toshiba, however they use a ZIF (Zero Insertion Force) connector instead of pins which were [big enough](/2005/03/13/ipod-super/) to solder to. The new ZIF connector they've employed works exactly like the LCD connector on the 4th generation iPods, holding the thin ribbon cable tightly until the plastic lever is flipped up parallel to one of its long edges. Designing a connector this way -- as opposed to the previous version with pluggable pins -- not only allows electronics to get much smaller, but significantly reduces the amount of physical stress created when plugging and unplugging cables. Unfortunately for us, this makes current adapters useless for testing 5th gen iPod hard drives. With a new way to connect hard drives, what can be done to adapt them to IDE just as before? Up to this point, it's all theory until I can get my hands on some more hardware, but I have a plan.
 
 The first step in determining whether adapting is even a viable option was to read Toshiba's data sheet on the new hard drives, which details the signals of each miniscule pin. I was hoping that, like the 2.5" to 1.8" shrink, nothing major had changed. Indeed, nothing but the new connector had been modified, making future work that much easier. The IDE pins remain intact, just...much smaller. The new drives run on 3.3v, but like other adapters, the drop from 5v to 3.3v is trivial compared to the task of finding or making an adapter to scale down the size of the pins.
 
-![Hitachi Adapter](/assets/hitachi_adapter.jpg)
+![Hitachi Adapter](/static/hitachi_adapter.jpg)
 
 Knowing that the signals are the same, I started hunting for a pre-made adapter to see if something that fit my needs already existed. It seems the topic of adapting these new Toshiba drives is one hardly touched upon. The only useful result was an expensive adapter from [YEC](http://www.yec-usa.com/products/accessories.htm), which is intended for Hitachi ZIF hard drives and includes a ribbon cable to connect the drive to the board. It looked close enough, so I investigated some more by emailing the company and posting on their message boards. As it turns out, the Hitachi hard drives use the same pin configuration as the Toshiba drives, but the ribbon cable that ships with the adapter is too thick. Hitachi drives are designed to take a slightly thicker cable than the Toshiba models. YEC's adapter board is pin-compatible with the Toshiba drives, but they don't yet offer the all-important thin ribbon cable. Curious, I asked if the Hitachi cable would be thin enough to work, perhaps even with some modification, but they responded that it is simply too thick to work with the Toshiba drives. YEC plans to offer a Toshiba ribbon cable in the near future, but as of this writing they have no availability date. (I should note at this point that I already intended to buy an adapter from them if it would fit, as I was amazed to find myself communicating with one of the engineers at the company -- unheard of in today's corporate environments!) Short of a fully functional adapter that I could buy now, I thought I was out of luck, since finding a compatible ribbon cable in a random electronic device is a pretty slim chance. Or is it?
 
 Mere hours after I had scoured Toshiba's website for pinouts, I [found](http://www.hackaday.com/2006/11/14/zune-gutted/) that engineer and Xbox hacker extraordinaire Andrew "bunnie" Huang had received and disassembled a new Zune (as I noted on [MacUser](http://www.macuser.com/ipod/zune_guts_vs_ipod_guts.php)). Looking at his [pictures](http://www.bunniestudios.com/wordpress/?p=131), you'll note that the Zune uses a new Toshiba ZIF hard drive, just like Apple's 5th Gen iPods. No surprise there. The drives are reliable and small enough to accomodate most handheld players. However, the ribbon cable Microsoft uses appears to be the exact piece required to adapt the YEC adapter to the Toshiba ZIF hard drives:
 
-![Zune Logic board](/assets/zune_board.jpg)
+![Zune Logic board](/static/zune_board.jpg)
 
 Gathering all the pices to assemble a Toshiba ZIF adapter looks to be quite costly at the moment -- $120 for the board (which is nothing more than a few cheap components) plus $249 for a Zune. My hope is that I can find a broken one on eBay to scavenge for parts. Unless I find a better alternative in the meantime, I think I may be forced to wait for YEC's ribbon cable to be made available. I'll keep this post updated with any future findings.
 
@@ -26,4 +26,4 @@ Gathering all the pices to assemble a Toshiba ZIF adapter looks to be quite cost
 
 **3/11/2007 Update:** The adapter from [Span](http://www.span.com/catalog/product_info.php?products_id=8932&c=102&t=side_right1) works, but it still a little pricey, and -- like the iPod 5G itself -- fragile. It gets the job done, though. I've yet to try a Zune hard drive cable with it, as the included cable is a little thick for Toshiba drives. For interested hardware hackers, here's a very high res image of the Zune hard drive cable I scanned (about 1.1MB in size).
 
-[![Zune Hard Drive cable](/assets/zune_cable_small.jpg)](/assets/zune_cable.jpg)
+[![Zune Hard Drive cable](/static/zune_cable_small.jpg)](/static/zune_cable.jpg)

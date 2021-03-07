@@ -28,11 +28,11 @@ Most home routers are very straightforward -- plug the device into wall power, r
 
 You can view your Mac's IP address by opening your Mac's System Preferences, Network, Built-in Ethernet, TCP/IP tab, shown here:
 
-![mac automatic ip settings](/assets/automatic_mac.jpg)
+![mac automatic ip settings](/static/automatic_mac.jpg)
 
 And just like you'd expect from the Mac, that's it!  No other setup is needed.  To connect to your Xbox, you'll need to find out its IP address, which you'll FTP into to transfer movies, music, games, or whatever media you choose to play.  Boot your Xbox and simply scroll down the main list and highlight the Settings tab.  On the right, the assigned IP address will be displayed:
 
-![xbmc settings main page](/assets/xbmc_settings_main.jpg)
+![xbmc settings main page](/static/xbmc_settings_main.jpg)
 
 As you can see, the IP 192.168.1.11 is given, which is the same address you would use to connect using Transmit or other preferred FTP client.  Using a router makes networking your hardware very easy, especially with the DHCP capabilities that do all the legwork for you.
 
@@ -46,17 +46,17 @@ Hooking up your Mac and Xbox via a crossover cable is as simple as plugging it i
 
 Once connected, visit the Mac's Network settings (again, System Preferences, Network, Built-in Ethernet, TCP/IP tab).  Change the "Configure IPv4" popup menu to Manually, and a number of fields will become editable.  Fill in an IP address such as 192.168.1.10, and a Subnet Mask of 255.255.255.0.  A router isn't used in this setup, so the Router and DNS Servers fields can be left blank.  Here's a screenshot of a properly configured Ethernet interface on the Mac side of the network:
 
-![crossover settings](/assets/crossover_mac.jpg)
+![crossover settings](/static/crossover_mac.jpg)
 
 Unless you're sharing an internet connection under the Sharing system preference pane, static is the only option for a crossover cable setup.  And, quite frankly, setting all your networked devices to static IPs is probably a good choice in any arrangement if you intend to be interacting with them regularly.  You'll always know which IP to connect to in order to get to the machine you expect.  (On my home network, I personally use a router with DHCP enabled, but have all my computers and Xboxes set with static IP addresses so I know where each is when I need to talk to it.  Any other computers, such as my fiancee's laptop, simply get an IP assigned via DHCP when it connects.)  Hit "Apply Now" to invoke the new IP setup, and your Mac will be configured.
 
 Next, boot up your Xbox running XBMC and open its Settings page.  Highlight the Network tab if it's not already selected, and move the selection over the Assignment up and down arrows, and choose "Manual (Static)", as seen below:
 
-![xbmc network settings](/assets/xbmc_settings_network.jpg)
+![xbmc network settings](/static/xbmc_settings_network.jpg)
 
 Once "Manual (Static)" is chosen, you can move the selection down to the IP Address field and type in the desired IP address using the little onscreen number pad.  Choose something reasonable (an ending number anywhere between .2 and .254), and one that's <b>not</b> the static IP of your Mac.  That last bit is important -- the two devices absolutely must have different IPs, or else they'll be fighting for control and probably both end up disconnected until you change one of them.
 
-![xbmc ip settings](/assets/xbmc_settings_ip.jpg)
+![xbmc ip settings](/static/xbmc_settings_ip.jpg)
 
 Once you're done typing an IP, press the "E" key onscreen to Enter your settings.  Step back out of the Network settings using the Back button on your controller or remote, and head back to the main XBMC menu.  For good measure, reboot your Xbox using the red button in the lower-right corner, and it will start up fresh with the static IP set exactly how you typed it.  You're then ready to connect via FTP using that IP, and start loading up content, browsing around the Xbox filesystem, or updating Xbox Media Center!
 

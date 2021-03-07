@@ -38,7 +38,7 @@ Once you've found distinct tray open/closed and disc in/out signals on the DVD-R
 
 What you need to do is write down the signals that you have on your PC DVD-ROM drive and see how they match up with the ones the Xbox is expecting to see (from what it would believe is a stock Xbox drive). Using the [diagram and description of each pin](http://www.xbox-linux.org/docs/pcdvd.html), you should be able to match up the pins. If the signals you have are opposite that, you'll need to use a logic gate chip to run your signal in, along with either power or ground, then run the output of that gate to the appropriate Xbox line.
 
-![xbox dvd diagram](/assets/xbox_dvd_pc.gif)
+![xbox dvd diagram](/static/xbox_dvd_pc.gif)
 
 If you only found one of the two tray open/closed signals above, you can duplicate and invert the one you found using another gate on the logic chip.  Run the signal you found to the matching one on the Xbox DVD power connector, but also run it to the logic gate and connect the output of that to it's matching pin as well.  That should satisfy the need for the tray open/closed signals.
 

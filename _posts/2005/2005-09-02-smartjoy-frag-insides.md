@@ -6,4 +6,4 @@ I recently purchased an Xbox [SmartJoy FRAG PS/2 adapter](http://www.lik-sang.co
 
 Because I was curious how it worked, I opened up the SmartJoy to see what makes it tick.  It's nothing more than a Cypress USB chip and a programmed PIC microcontroller.  The USB chip speaks the proper protocol to the Xbox (as the controllers and memory units are all just USB devices in disguise), and the PIC handles key programming and PS/2 interfacing.  All in all, it's a pretty neat little gadget, but not quite worth the $35 plus shipping from Hong Kong.
 
-![smartjoy frag insides](/assets/xbox_smartjoy_frag_insides.jpg)
+![smartjoy frag insides](/static/xbox_smartjoy_frag_insides.jpg)

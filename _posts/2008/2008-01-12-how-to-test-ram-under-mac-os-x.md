@@ -8,7 +8,7 @@ Fortunately, with a little preparation right now, you can boot your Mac into [Si
 
 **Download Memtest**
 
-The testing setup isn't terribly complex; I've taken the liberty of putting together an [installable package](/assets/memtest_422.zip) which will put the Memtest utility into your /usr/bin/ folder. Memtest is a Unix command-line program that does the memory testing, and is the Mac equivalent of [MemTest86](http://www.memtest86.com/download.html).
+The testing setup isn't terribly complex; I've taken the liberty of putting together an [installable package](/static/memtest_422.zip) which will put the Memtest utility into your /usr/bin/ folder. Memtest is a Unix command-line program that does the memory testing, and is the Mac equivalent of [MemTest86](http://www.memtest86.com/download.html).
 
 **Memtest Usage**
 
