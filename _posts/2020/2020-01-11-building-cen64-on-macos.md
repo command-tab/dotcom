@@ -23,7 +23,7 @@ When running cen64 outside of an XQuartz X11 terminal, it may report:
     create_device: Failed to initialize the VI.
     Failed to create a device.
 
-To fix this, you can run it within an XQuartz X11 terminal, or simply set the `DISPLAY` environment variable to something like `:0` either in your `.bashrc` file or inline during invocation:
+To fix this, you can run it within an XQuartz X11 terminal, or set the `DISPLAY` environment variable to something like `:0` either in your `.bashrc` file or inline during invocation:
 
     DISPLAY=:0 ./cen64 /path/to/pifdata.bin /path/to/rom.z64
 
