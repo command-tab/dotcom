@@ -40,3 +40,18 @@ In the nginx config, add a new `location` directive to match the configured Vite
     }
 
 After restarting the development server and nginx, Nuxt 3 and Vite HMR work great behind nginx, which now handles TLS termination and reverse proxying of HTTP and websocket traffic.
+
+**Update 2023-09-28**
+
+As of Nuxt 3.7.4, the `nuxt.config.ts` configuration [is unnecessary](https://github.com/nuxt/nuxt/issues/12003#issuecomment-1738373498), though having the following nginx config in place avoids a WebSocket error about the WebSocket host being undefined:
+
+    location /_nuxt/ {
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_pass http://localhost:3000;
+    }
+
+Note the difference from the above config -- the Vite HMR port (`24678`) become the default Nuxt port (`3000`). The `Host` header is also passed though, but that's likely not critical for this scenario.
