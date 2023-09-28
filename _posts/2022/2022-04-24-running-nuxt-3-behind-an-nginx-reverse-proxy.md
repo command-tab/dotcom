@@ -54,4 +54,4 @@ As of Nuxt 3.7.4, the `nuxt.config.ts` configuration [is unnecessary](https://gi
         proxy_pass http://localhost:3000;
     }
 
-Note the difference from the above config -- the Vite HMR port (`24678`) become the default Nuxt port (`3000`). The `Host` header is also passed though, but that's likely not critical for this scenario.
+Note the differences from the above config -- the location path dropped `hmr/`, the Vite HMR port (`24678`) became the default Nuxt port (`3000`), and the `Host` header was also added (but the `Host` header is likely not critical for this scenario).
