@@ -31,3 +31,7 @@ To fix this, you can run it within an XQuartz X11 terminal, or set the `DISPLAY`
 `DISPLAY` needs to be set because cen64 calls [XOpenDisplay](https://tronche.com/gui/x/xlib/display/opening.html) with a NULL display name (presumably to default to your `DISPLAY` environment variable), but if it's not set, XOpenDisplay returns NULL and cen64 has no display within which to create a window for rendering Nintendo 64 content.
 
 For extremely verbose register-level output, edit `CMakeLists.txt` and set `DEBUG_MMIO_REGISTER_ACCESS` to `ON`. Make sure to remove any cached data in `build/` to ensure your changes are reflected, then recompile and re-run.
+
+**Update 2024-03-02**
+
+Development on cen64 has not progressed in many months and is now considered unmaintained. [ares](https://ares-emu.net), a cross-platform, open source, multi-system emulator is now regarded as the best emulator for Nintendo 64 development.
