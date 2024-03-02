@@ -6,6 +6,7 @@ categories: n64
 For testing Nintendo 64 homebrew ROMs, [cen64](https://github.com/n64dev/cen64) is the most accurate emulator (though it doesn't run at full speed yet). Here's how to build it from source on macOS:
 
 1. Install XQuartz from the official [distributed disk image](https://www.xquartz.org/)
+1. `brew install cmake glew`
 1. `git clone https://github.com/n64dev/cen64.git`
 1. `cd cen64`
 1. `mkdir build`
